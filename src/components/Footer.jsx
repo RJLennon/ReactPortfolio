@@ -5,13 +5,13 @@ export default function Footer() {
         <footer class="page-footer red lighten-2">
           <div class="container">
             <div class="row">
-              <div class="col l1 offset-l4 m12">
+              <div class="col l1 offset-l4">
                 <a href="https://www.github.com">GitHub</a>
               </div>
-              <div class="col l1 m12">
+              <div class="col l1">
                 <a href="https://www.linkedin.com">LinkedIn</a>
               </div>
-              <div class="col l2 m12">
+              <div class="col l2">
                 <a href="https://www.stackoverflow.com">Stack Overflow</a>
               </div>
             </div>
