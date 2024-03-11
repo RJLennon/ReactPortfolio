@@ -1,11 +1,24 @@
 export default function ResumePage() {
   return (
     <div>
-      <h1>Welcome to the Resume Page</h1>
+      <h2>Welcome to the Resume Page</h2>
       <p>
-        This is the resume page. You can use the navigation bar to visit the other
-        pages.
+        View my Resume
       </p>
+      <h4>Front End</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+      <h4>Back End</h4>
+          <ul>
+            <li>Node</li>
+            <li>SQL</li>
+            <li>Mongo</li>
+            <li>Express</li>
+          </ul>
     </div>
   );
 };
