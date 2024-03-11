@@ -6,7 +6,7 @@ import 'materialize-css/dist/css/materialize.min.css'
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
+import PortfolioPage from './pages/PortfolioPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
@@ -20,11 +20,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: <AboutPage />,
       },
       {
-        path: 'about',
-        element: <AboutPage />,
+        path: 'portfolio',
+        element: <PortfolioPage />,
       },
       {
         path: 'contact',
