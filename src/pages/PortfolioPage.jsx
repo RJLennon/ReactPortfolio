@@ -1,3 +1,5 @@
+import Project from "../components/Project";
+
 export default function PortfolioPage() {
   return (
     <div>
@@ -6,6 +8,14 @@ export default function PortfolioPage() {
         This is the home page. You can use the navigation bar to visit the other
         pages.
       </p>
+      <div class="row">
+        <Project/>
+        <Project/>
+        <Project/>
+        <Project/>
+        <Project/>
+        <Project/>
+      </div>
     </div>
   );
 }
