@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client';
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
-import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/css/materialize.min.css';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import ErrorPage from './pages/ErrorPage';
