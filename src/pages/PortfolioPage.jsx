@@ -9,12 +9,12 @@ export default function PortfolioPage() {
         pages.
       </p>
       <div class="row">
-        <Project imageURL="/src/assets/react.svg"/>
-        <Project imageURL="/src/assets/react.svg"/>
-        <Project imageURL="/src/assets/react.svg"/>
-        <Project imageURL="/src/assets/react.svg"/>
-        <Project imageURL="/src/assets/react.svg"/>
-        <Project imageURL="/src/assets/react.svg"/>
+        <Project imageURL="/src/assets/react.svg" projectName="Project 1" projectURL="" projectDescription=""/>
+        <Project imageURL="/src/assets/react.svg" projectName="Project 1" projectURL="" projectDescription=""/>
+        <Project imageURL="/src/assets/react.svg" projectName="Project 1" projectURL="" projectDescription=""/>
+        <Project imageURL="/src/assets/react.svg" projectName="Project 1" projectURL="" projectDescription=""/>
+        <Project imageURL="/src/assets/react.svg" projectName="Project 1" projectURL="" projectDescription=""/>
+        <Project imageURL="/src/assets/react.svg" projectName="Project 1" projectURL="" projectDescription=""/>
       </div>
     </div>
   );
