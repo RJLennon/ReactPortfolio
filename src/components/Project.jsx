@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Project({imageURL, projectName}) {
+export default function Project({imageURL, projectName, projectURL, projectDescription}) {
     // The Navbar UI component will render each of the Link elements in the links prop
     return (
         <div class="col s12 m6 l4">
@@ -14,7 +14,7 @@ export default function Project({imageURL, projectName}) {
                     </p>
                 </div>
                 <div class="card-action">
-                    <a href="https://github.com/RJLennon/PersonaPals">{projectName}</a>
+                    <a href={projectURL}>{projectName}</a>
                 </div>
             </div>
         </div>                    
