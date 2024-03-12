@@ -10,7 +10,7 @@ export default function Project({imageURL, projectName, projectURL, projectDescr
                 </div>
                 <div class="card-content">
                     <p>
-                        I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                        {projectDescription}
                     </p>
                 </div>
                 <div class="card-action">

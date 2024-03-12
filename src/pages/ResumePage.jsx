@@ -1,18 +1,18 @@
 export default function ResumePage() {
   return (
     <div>
-      <h2>Welcome to the Resume Page</h2>
+      <h3>Resume</h3>
       <p>
         View my Resume
       </p>
-      <h4>Front End</h4>
+      <h5>Front End</h5>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
           </ul>
-      <h4>Back End</h4>
+      <h5>Back End</h5>
           <ul>
             <li>Node</li>
             <li>SQL</li>

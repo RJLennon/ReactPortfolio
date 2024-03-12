@@ -3,6 +3,7 @@ export default function AboutPage() {
   return (
     <div className="container pt-4">
       <p>
+        This is the about page. Insert description about the page here.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
         tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
         impedit suscipit sed magnam alias in, repellat expedita hic explicabo
@@ -30,9 +31,9 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-layers m-auto text-primary" />
                 </div>
-                <h3>Bootstrap 5 Ready</h3>
+                <h3>Materialize Ready</h3>
                 <p className="lead mb-0">
-                  Featuring the latest build of the new Bootstrap 5 framework!
+                  Featuring the latest build of the new Materialize framework!
                 </p>
               </div>
             </div>
