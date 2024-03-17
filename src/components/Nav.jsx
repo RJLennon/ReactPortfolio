@@ -7,9 +7,9 @@ export default function Nav() {
       <a href="#" class="brand-logo left">Rob Lennon's Profile</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="/">About</a></li>
-        <li><a href="/Portfolio">Portfolio</a></li>
-        <li><a href="/Contact">Contact</a></li>
-        <li><a href="/Resume">Resume</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/resume">Resume</a></li>
       </ul>
     </div>
   </nav>
